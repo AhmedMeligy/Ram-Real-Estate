@@ -1,0 +1,63 @@
+body{
+    background-color: #F5F5F5 !important;
+}
+.info{
+    background-color: #c4cfc4;
+    color: white;
+}
+nav{
+    background-color: white !important;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #c4cfc4;
+    text-align: center;
+    clear: both;
+}
+body{
+    padding-top: 140px;
+}
+.btn-whatsapp {
+    background-color: #0DAD3C !important; 
+    color: #fff !important; 
+    border: none !important; 
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    font-size: 20px !important;
+    transition: transform 0.4s ease !important;
+}
+html {
+    scroll-behavior: smooth;
+}
+.btn-whatsapp:hover {
+    background-color: #128c7e !important; 
+    transform: scale(1.1);
+}
+.nav-item:hover{
+    font-size: large;
+}
+.img-zoom {
+    transition: transform 0.4s ease;
+}
+.img-zoom:hover {
+    transform: scale(1.1);
+}
+
+.tel{
+    color: black;
+    font-weight: bold;
+}
+.links{
+    font-weight: bold;
+}
+@media (min-width: 769px) {
+    .card-1 ,.card-4 , .card-5{
+        background-color: #aeb6ae !important;
+    }
+}
+@media (max-width: 768px) {
+    .card-1 ,.card-3 , .card-5{
+        background-color: #aeb6ae!important;
+    }
+  }
